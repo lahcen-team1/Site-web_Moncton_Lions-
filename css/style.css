@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #fbf5f1; /* background-Color for entire web*/
+  color: #a82e4c; /* Color for entire Bold text and button  */
+}
+
+/* Set the box-sizing property for HTML elements */
+html {
+  box-sizing: border-box;
+}
+
+/* Inherit box-sizing from the parent element for all elements, ::before and ::after pseudo-elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*  -----------Header----------- */
+
+header {
+  color: #a72c4a;
+  text-align: center;
+  height: 100px;
+  padding: 20;
+}
+.img-header {
+  width: 100%;
+  height: 100px;
+  width: 230px;
+  margin-left: 0;
+  float: left;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+
+header > h1 {
+  margin-bottom: 30px;
+  color: #a72c4a;
+  height: 40px;
+  padding: 20px;
+}
+
+/*  -----------HEADER NAV ----------- */
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 32px;
+}
+nav ul {
+  text-align: center;
+  padding: 10px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+.menu ul li a {
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #7c7b7c;
+  font-size: 30px;
+  margin-top: 173px;
+  margin-left: 0px;
+}
+.menu a:hover {
+  color: #a72c4a;
+  background-color: #f78da7;
+}
+.menu h2 {
+  margin-top: 173px;
+  margin-left: 83px;
+  font-size: 30px;
+  font-stretch: expanded;
+}
+ /* styles for the banner Images Container */
+.flex-banner{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+ 
+}
+ /* styles for the banner Images*/
+.banner{
+  width: 90%;
+  max-height: 750px;
+  text-align: center; /* Align contents of the banner to the center */
+  padding: 20px; /* padding */
+  margin: 0 auto; /* Horizontally center the banner */
+}
+/*  -----------CONTAINER----------- */
+.container {
+  display: flex;
+  border: 0.5px solid #7c7b7c;
+}
+
+/*  -----------CONTAINER- ASIDE----------- */
+
+aside {
+  width: 20%;
+  height: 690px;
+}
+ul.Aside {
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-content: center;
+  height: 400px;
+  list-style-type: none;
+  width: 100%;
+}
+aside li,
+h2 {
+  padding: 20px;
+  font-size: 30px;
+}
+aside li:hover {
+  color: red;
+}
+
+/*  -----------CONTAINER-MAIN---------- */
+main {
+  width: 80%;
+  border: 0.5px solid #7c7b7c;
+}
+main h1 {
+  padding: 20px;
+}
+.left h2 {
+  color: #a72c4a;
+  font-family: josefin sans, sans-serif;
+  font-size: 45px;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  text-transform: none;
+  text-align: center;
+}
+.left h3 {
+  color: #a72c4a;
+  font-family: josefin sans, sans-serif;
+  font-size: 25px;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  text-transform: none;
+  text-align: left;
+  padding: 10px;
+  padding-top: 20px;
+}
+.left h4 {
+  color: #7c7b7c;
+  font-family: josefin sans, sans-serif;
+  font-size: 20px;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+h3 {
+  color: #7c7b7c;
+  padding-bottom: 10px;
+}
+h4 {
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+details h4 {
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+main .left {
+  width: 90%;
+  height: auto;
+  background-size: cover;
+  float: left;
+  margin-left: 20px;
+  padding: 0px;
+}
+
+
+/*  -----------Make margin for the form---------- */
+form {
+  margin-right: 15px;
+}
+.author {
+  text-align: center;
+}
+/*  -----------Style Title in the pages as First text ---------- */
+#text_one {
+  text-align: center;
+  font-weight: bold;
+  color: #d1909d;
+  font-size: 29px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+/*  -----------Style Title in the pages as second text ---------- */
+#text_two {
+  color: #d1909d;
+  font-size: 29px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 20px;
+}
+/*  -----------Style link contact  ---------- */
+.contact a {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #e6bdc7;
+}
+/*  -----------Style heart img in contact page  ---------- */
+#image_test {
+  width: 150px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  opacity: 1;
+}
+/*  -----------Style video  in contact About us page  ---------- */
+video {
+  margin-left: 20px;
+  border-radius: 4%;
+}
+
+/*  -----------footer----------- */
+footer {
+  height: 120px;
+  background-color: #c67486;
+  color: #e2cccc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  clear: both;
+  font-size: 30px;
+}
+footer a {
+  color: #e2cccc;
+  background-color: #c67486;
+  text-decoration: none;
+}
+/* Responsive web site with media screen  */
+
+@media (max-width: 780px) {
+  header h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+  }
+
+  .img-header,.banner{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  header {
+    height: auto;
+  }
+
+  nav,
+  main {
+    float: none;
+  }
+
+  .Aside {
+    width: 300px;
+  }
+  aside ul a {
+    margin: 0;
+  }
+  .Aside li a {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 12px;
+  }
+
+  main h1,
+  aside li,
+  .left h2,
+  #text_two {
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+  }
+  aside ul li {
+    margin-left: 5px;
+    padding: 0;
+    line-height: 4em;
+  }
+  #video {
+    padding-top: 20px;
+    float: left;
+    margin-right: 40px;
+    width: 80%;
+    flex-grow: 1;
+  }
+  iframe {
+    width: 100%;
+    float: left;
+  }
+
+  footer {
+    height: 80px;
+    font-size: 16px;
+  }
+}
